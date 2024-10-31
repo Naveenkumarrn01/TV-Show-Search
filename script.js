@@ -5,7 +5,6 @@ const loadingDiv = document.querySelector("#loading");
 form.addEventListener("submit", async function (e) {
   e.preventDefault();
 
-  // Clear previous results and show loading indicator
   resultsDiv.innerHTML = "";
   loadingDiv.style.display = "block";
 
